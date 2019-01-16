@@ -10,6 +10,23 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        />
-
+        android:id="@+id/d1"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="number2"/>
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/d2"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Division"
+        android:id="@+id/d"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bd"
+        android:text="back"/>
 </LinearLayout>
