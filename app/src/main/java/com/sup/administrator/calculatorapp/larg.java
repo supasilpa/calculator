@@ -10,7 +10,7 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 public class larg extends AppCompatActivity {
-EditText e1,e2,e3;
+EditText e1,e2,e3,e4;
     Button b,b1;
     String s1,s2,s3,s4,s5,s6;
     Integer n1,n2,n3,n4;
@@ -22,6 +22,7 @@ EditText e1,e2,e3;
         e1=(EditText)findViewById(R.id.l1);
         e2=(EditText)findViewById(R.id.l2);
         e3=(EditText)findViewById(R.id.l3);
+        e4=(EditText)findViewById(R.id.larres1);
         b=(Button)findViewById(R.id.lar);
         b1=(Button)findViewById(R.id.bl);
         b.setOnClickListener(new View.OnClickListener() {
@@ -35,16 +36,25 @@ EditText e1,e2,e3;
                 n3=Integer.parseInt(s3);
                 if((n1>n2) && (n1>n3))
                 {
+
                     s4=String.valueOf(n1);
+                    e4.setText(s4);
+                    e4.setVisibility(View.VISIBLE);
                     Toast.makeText(getApplicationContext(),s4,Toast.LENGTH_LONG).show();
                 }
                 else if((n2>n1) && (n2>n3))
                 {
+
                     s5=String.valueOf(n2);
+                    e4.setText(s5);
+                    e4.setVisibility(View.VISIBLE);
                     Toast.makeText(getApplicationContext(),s5,Toast.LENGTH_LONG).show();
                 }
                 else
                 {
+                    s6=String.valueOf(n3);
+                    e4.setText(s6);
+                    e4.setVisibility(View.VISIBLE);
                Toast.makeText(getApplicationContext(),s3,Toast.LENGTH_LONG).show();
                 }
             }

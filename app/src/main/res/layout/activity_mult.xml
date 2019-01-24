@@ -6,11 +6,13 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="number1"/>
+        android:text="number1"
+        />
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/m1"/>
+        android:id="@+id/m1"
+        android:inputType="number"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -18,7 +20,8 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/m2"/>
+        android:id="@+id/m2"
+        android:inputType="number"/>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -29,4 +32,10 @@
         android:layout_height="wrap_content"
         android:text="back"
         android:id="@+id/bm"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mulres"
+        android:visibility="gone"
+        />
 </LinearLayout>

@@ -37,5 +37,11 @@ android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Back"
         android:id="@+id/bs"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/smres"
+        android:visibility="gone"
+        android:editable="false"/>
 
 </LinearLayout>
